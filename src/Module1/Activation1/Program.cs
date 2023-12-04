@@ -4,8 +4,9 @@ using System;
 namespace Activation1 {
 	class Program {
 		static void Main(string[] args) {
-			ILogger logger = Activator.CreateInstance(
-				"Symbion", "Symbion.DebugLogger").Unwrap() as ILogger;
+			//	ILogger logger = Activator.CreateInstance(
+			//		"Symbion", "Symbion.DebugLogger").Unwrap() as ILogger;
+			ILogger logger = LoggerFactory.CreateInstance();
 			if (logger != null) {
 				Console.WriteLine(logger.Source);
 				logger.Write("This is the 1st message.", LogType.Information);

@@ -1,2 +1,10 @@
 C:\CSC301-A\src\Module1\Abstraction1\obj\Debug\Abstraction1.csproj.AssemblyReference.cache
 C:\CSC301-A\src\Module1\Abstraction1\obj\Debug\Abstraction1.csproj.CoreCompileInputs.cache
+C:\CSC301-A\src\Module1\Abstraction1\bin\Debug\Abstraction1.exe.config
+C:\CSC301-A\src\Module1\Abstraction1\bin\Debug\Abstraction1.exe
+C:\CSC301-A\src\Module1\Abstraction1\bin\Debug\Abstraction1.pdb
+C:\CSC301-A\src\Module1\Abstraction1\bin\Debug\Symbion.dll
+C:\CSC301-A\src\Module1\Abstraction1\bin\Debug\Symbion.pdb
+C:\CSC301-A\src\Module1\Abstraction1\obj\Debug\Abstraction1.csproj.CopyComplete
+C:\CSC301-A\src\Module1\Abstraction1\obj\Debug\Abstraction1.exe
+C:\CSC301-A\src\Module1\Abstraction1\obj\Debug\Abstraction1.pdb

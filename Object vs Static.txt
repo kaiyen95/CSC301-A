@@ -1,0 +1,14 @@
+Object-oriented factory:
+------------------------
+var factory = new LoggerFactory();
+var logger = factory.CreateInstance();
+
+Singleton factory:
+------------------
+var factory = LoggerFactory.GetInstance();
+var logger = factory.CreateInstance();
+
+Static factory:
+---------------
+var logger = LoggerFactory.CreateInstance();
+

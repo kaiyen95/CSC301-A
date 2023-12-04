@@ -3,4 +3,3 @@ C:\CSC301-A\src\Module1\Symbion\bin\Debug\Symbion.pdb
 C:\CSC301-A\src\Module1\Symbion\obj\Debug\Symbion.csproj.CoreCompileInputs.cache
 C:\CSC301-A\src\Module1\Symbion\obj\Debug\Symbion.dll
 C:\CSC301-A\src\Module1\Symbion\obj\Debug\Symbion.pdb
-C:\CSC301-A\src\Module1\Symbion\obj\Debug\Symbion.csproj.AssemblyReference.cache
