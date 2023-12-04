@@ -1,0 +1,5 @@
+C:\CSC301-A\src\Module1\Symbion\bin\Release\Symbion.dll
+C:\CSC301-A\src\Module1\Symbion\bin\Release\Symbion.pdb
+C:\CSC301-A\src\Module1\Symbion\obj\Release\Symbion.csproj.CoreCompileInputs.cache
+C:\CSC301-A\src\Module1\Symbion\obj\Release\Symbion.dll
+C:\CSC301-A\src\Module1\Symbion\obj\Release\Symbion.pdb

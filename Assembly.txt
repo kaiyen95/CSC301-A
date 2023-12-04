@@ -1,0 +1,1 @@
+- Resource-only assembly (A .NET Library that doesn't contain code only resource files)
