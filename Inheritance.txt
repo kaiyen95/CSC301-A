@@ -1,0 +1,12 @@
+abstract class - class used only to be extended (inherited) and cannot be used by itself
+base class - class you extend (inherit) from
+derived class - extended class directly/indirectly from base classes
+sealed class - disallow extending / inheritance on class
+
+- (fixed)
+	can inherit but cannot override
+- virtual
+	can inherit but you can override
+- abstract
+	cannot inherit, must override
+

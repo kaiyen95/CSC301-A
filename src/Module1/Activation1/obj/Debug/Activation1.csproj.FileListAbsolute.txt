@@ -1,0 +1,10 @@
+C:\CSC301-A\src\Module1\Activation1\bin\Debug\Activation1.exe.config
+C:\CSC301-A\src\Module1\Activation1\bin\Debug\Activation1.exe
+C:\CSC301-A\src\Module1\Activation1\bin\Debug\Activation1.pdb
+C:\CSC301-A\src\Module1\Activation1\bin\Debug\Symbion.dll
+C:\CSC301-A\src\Module1\Activation1\bin\Debug\Symbion.pdb
+C:\CSC301-A\src\Module1\Activation1\obj\Debug\Activation1.csproj.AssemblyReference.cache
+C:\CSC301-A\src\Module1\Activation1\obj\Debug\Activation1.csproj.CoreCompileInputs.cache
+C:\CSC301-A\src\Module1\Activation1\obj\Debug\Activation1.csproj.CopyComplete
+C:\CSC301-A\src\Module1\Activation1\obj\Debug\Activation1.exe
+C:\CSC301-A\src\Module1\Activation1\obj\Debug\Activation1.pdb

@@ -1,0 +1,2 @@
+C:\CSC301-A\src\Module1\Abstraction1\obj\Debug\Abstraction1.csproj.AssemblyReference.cache
+C:\CSC301-A\src\Module1\Abstraction1\obj\Debug\Abstraction1.csproj.CoreCompileInputs.cache

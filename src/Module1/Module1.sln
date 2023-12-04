@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Symbion", "Symbion\Symbion.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation1", "Encapsulation1\Encapsulation1.csproj", "{6EF47030-96EC-4848-B90B-77E7E73009F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstraction1", "Abstraction1\Abstraction1.csproj", "{14041ECC-640E-4CCB-8A91-4D13C76E2E89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Activation1", "Activation1\Activation1.csproj", "{373EF688-3FA1-4961-99F0-3FFFFB860793}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{6EF47030-96EC-4848-B90B-77E7E73009F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EF47030-96EC-4848-B90B-77E7E73009F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EF47030-96EC-4848-B90B-77E7E73009F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14041ECC-640E-4CCB-8A91-4D13C76E2E89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14041ECC-640E-4CCB-8A91-4D13C76E2E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14041ECC-640E-4CCB-8A91-4D13C76E2E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14041ECC-640E-4CCB-8A91-4D13C76E2E89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{373EF688-3FA1-4961-99F0-3FFFFB860793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{373EF688-3FA1-4961-99F0-3FFFFB860793}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{373EF688-3FA1-4961-99F0-3FFFFB860793}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{373EF688-3FA1-4961-99F0-3FFFFB860793}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
