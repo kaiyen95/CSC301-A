@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Symbion.Loggers", "Symbion.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism1", "Polymorphism1\Polymorphism1.csproj", "{919E4E8E-01E0-4C7A-B3D4-E209811D5FB0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dependency1", "Dependency1\Dependency1.csproj", "{3634F146-3E17-4AE1-BC7E-8336313D363A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{919E4E8E-01E0-4C7A-B3D4-E209811D5FB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{919E4E8E-01E0-4C7A-B3D4-E209811D5FB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{919E4E8E-01E0-4C7A-B3D4-E209811D5FB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3634F146-3E17-4AE1-BC7E-8336313D363A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3634F146-3E17-4AE1-BC7E-8336313D363A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3634F146-3E17-4AE1-BC7E-8336313D363A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3634F146-3E17-4AE1-BC7E-8336313D363A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

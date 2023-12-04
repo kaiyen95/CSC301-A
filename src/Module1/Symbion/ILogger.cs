@@ -1,5 +1,5 @@
 ﻿namespace Symbion {
-	public interface ILogger {
+	public interface ILogger : IService {
 		string Source { get; set; }
 		void Write(string message,
 			LogType logType = LogType.Information);

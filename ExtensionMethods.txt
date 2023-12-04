@@ -1,0 +1,4 @@
+- method must be static
+- struct/class containing method must also be static
+- method must have at least one parameter
+- parameter must be marked with 'this' keyword

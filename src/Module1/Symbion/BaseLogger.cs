@@ -3,7 +3,7 @@ using System.IO;
 using System.Reflection;
 
 namespace Symbion {
-	public abstract class BaseLogger : ILogger {
+	public abstract class BaseLogger : BaseService, ILogger {
 		#region fields
 		private string _source;
 		#endregion
