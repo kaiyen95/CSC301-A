@@ -1,0 +1,13 @@
+C:\CSC301-A\src\Module1\Modules1\bin\Debug\Modules.xml
+C:\CSC301-A\src\Module1\Modules1\bin\Debug\Modules1.exe.config
+C:\CSC301-A\src\Module1\Modules1\bin\Debug\Modules1.exe
+C:\CSC301-A\src\Module1\Modules1\bin\Debug\Modules1.pdb
+C:\CSC301-A\src\Module1\Modules1\bin\Debug\SymBank.Banking.dll
+C:\CSC301-A\src\Module1\Modules1\bin\Debug\Symbion.dll
+C:\CSC301-A\src\Module1\Modules1\bin\Debug\SymBank.Banking.pdb
+C:\CSC301-A\src\Module1\Modules1\bin\Debug\Symbion.pdb
+C:\CSC301-A\src\Module1\Modules1\obj\Debug\Modules1.csproj.AssemblyReference.cache
+C:\CSC301-A\src\Module1\Modules1\obj\Debug\Modules1.csproj.CoreCompileInputs.cache
+C:\CSC301-A\src\Module1\Modules1\obj\Debug\Modules1.csproj.CopyComplete
+C:\CSC301-A\src\Module1\Modules1\obj\Debug\Modules1.exe
+C:\CSC301-A\src\Module1\Modules1\obj\Debug\Modules1.pdb

@@ -1,0 +1,10 @@
+C:\CSC301-A\src\Module1\Serialization1\bin\Debug\Serialization1.exe.config
+C:\CSC301-A\src\Module1\Serialization1\bin\Debug\Serialization1.exe
+C:\CSC301-A\src\Module1\Serialization1\bin\Debug\Serialization1.pdb
+C:\CSC301-A\src\Module1\Serialization1\bin\Debug\Symbion.dll
+C:\CSC301-A\src\Module1\Serialization1\bin\Debug\Symbion.pdb
+C:\CSC301-A\src\Module1\Serialization1\obj\Debug\Serialization1.csproj.AssemblyReference.cache
+C:\CSC301-A\src\Module1\Serialization1\obj\Debug\Serialization1.csproj.CoreCompileInputs.cache
+C:\CSC301-A\src\Module1\Serialization1\obj\Debug\Serialization1.csproj.CopyComplete
+C:\CSC301-A\src\Module1\Serialization1\obj\Debug\Serialization1.exe
+C:\CSC301-A\src\Module1\Serialization1\obj\Debug\Serialization1.pdb

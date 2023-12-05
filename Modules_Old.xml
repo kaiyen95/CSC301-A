@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<ModuleList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Items>
+    <ModuleItem>
+      <Name>SymBank.Banking.BankingModule</Name>
+      <Path>SymBank.Banking.dll</Path>
+      <Roles>
+        <string>Administrators</string>
+        <string>Banking</string>
+      </Roles>
+    </ModuleItem>
+	  <ModuleItem>
+		  <Name>SymBank.Inventory.InventoryModule</Name>
+		  <Path>SymBank.Inventory.dll</Path>
+		  <Roles>
+			  <string>Administrators</string>
+			  <string>Warehouse</string>
+			  <string>Sales</string>
+		  </Roles>
+	  </ModuleItem>
+  </Items>
+</ModuleList>
