@@ -15,9 +15,9 @@
               "state": {
                 "file": "SymBank/Project Structure.canvas",
                 "viewState": {
-                  "x": 80,
+                  "x": -35,
                   "y": -120,
-                  "zoom": -0.5736026385566086
+                  "zoom": -0.43455694999826805
                 }
               }
             }
@@ -149,11 +149,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "083166463e99fc0f",
+  "active": "aec44c45d23cd077",
   "lastOpenFiles": [
+    "SymBank/WPF Library.md",
+    "SymBank/Project Structure.canvas",
     "Untitled",
     "SymBank/UI Messaging.md",
-    "SymBank/Project Structure.canvas",
     "SymBank"
   ]
 }

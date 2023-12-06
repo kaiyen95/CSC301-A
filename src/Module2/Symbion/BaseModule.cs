@@ -5,9 +5,7 @@
 
 		public static IShell Shell {
 			get {
-				if (_shell == null)
-					_shell = ServiceRepository.Get<IShell>();
-				return _shell;
+				return _shell ?? (_shell = ServiceRepository.Get<IShell>());
 			}
 		}
 

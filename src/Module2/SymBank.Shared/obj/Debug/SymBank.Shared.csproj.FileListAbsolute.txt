@@ -6,3 +6,11 @@ C:\CSC301-A\src\Module2\SymBank.Shared\obj\Debug\SymBank.Shared.csproj.GenerateR
 C:\CSC301-A\src\Module2\SymBank.Shared\obj\Debug\SymBank.Shared.csproj.CoreCompileInputs.cache
 C:\CSC301-A\src\Module2\SymBank.Shared\obj\Debug\SymBank.Shared.dll
 C:\CSC301-A\src\Module2\SymBank.Shared\obj\Debug\SymBank.Shared.pdb
+C:\CSC301-A\src\Module2\SymBank.Shared\bin\Debug\Symbion.dll
+C:\CSC301-A\src\Module2\SymBank.Shared\bin\Debug\Symbion.pdb
+C:\CSC301-A\src\Module2\SymBank.Shared\obj\Debug\WebBrowserView.g.cs
+C:\CSC301-A\src\Module2\SymBank.Shared\obj\Debug\SymBank.Shared_MarkupCompile.cache
+C:\CSC301-A\src\Module2\SymBank.Shared\obj\Debug\SymBank.Shared_MarkupCompile.lref
+C:\CSC301-A\src\Module2\SymBank.Shared\obj\Debug\WebBrowserView.baml
+C:\CSC301-A\src\Module2\SymBank.Shared\obj\Debug\SymBank.Shared.g.resources
+C:\CSC301-A\src\Module2\SymBank.Shared\obj\Debug\SymBank.Shared.csproj.CopyComplete

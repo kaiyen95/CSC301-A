@@ -1,4 +1,5 @@
-﻿using Symbion;
+﻿using SymBank.Shared;
+using Symbion;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,8 +20,18 @@ namespace SymBank {
 	/// Interaction logic for MainWindow.xaml
 	/// </summary>
 	public partial class Shell : Window, IShell {
+		private Dictionary<string, IRegionAdapter> _regions;
+
+		public Dictionary<string, IRegionAdapter> Regions {
+			//	get { return _regions; }
+			get => _regions;
+		}
+
 		public Shell() {
 			InitializeComponent();
+			_regions = new Dictionary<string, IRegionAdapter>();
+			_regions.Add(ShellRegions.SideRegion, new ListBoxRegionAdapter(sideRegion));
+			_regions.Add(ShellRegions.MainRegion, new TabControlRegionAdapter(mainRegion));
 			this.Add<IShell>();
 		}
 
@@ -42,6 +53,12 @@ namespace SymBank {
 
 		private void Window_Loaded(object sender, RoutedEventArgs e) {
 			ModuleLoader.Init();
+		}
+
+		private void mnuWebBrowser_Click(object sender, RoutedEventArgs e) {
+			var view = new WebBrowserView();
+			view.Open("https://google.com");
+			view.Show();
 		}
 	}
 }
