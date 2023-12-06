@@ -4,17 +4,17 @@
 library
 C#
 .cs
-C:\CSC301-A\src\Module1\SymBank.Banking\obj\Debug\
+C:\CSC301-A\src\Module2\SymBank.Banking\obj\Debug\
 SymBank.Banking
 none
 false
 DEBUG;TRACE
 
-1-98425716
+2658800797
 
-51187858841
-13152784993
-UserControl1.xaml;
+102048083306
+15-371192177
+Views\AddAccountView.xaml;Views\SearchAccountsView.xaml;
 
-True
+False
 

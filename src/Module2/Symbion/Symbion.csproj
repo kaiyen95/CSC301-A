@@ -68,6 +68,7 @@
     <Compile Include="ListBoxRegionAdapter.cs" />
     <Compile Include="LoggerFactory.cs" />
     <Compile Include="LogType.cs" />
+    <Compile Include="MenuBarBuilder.cs" />
     <Compile Include="ModuleClassAttribute.cs" />
     <Compile Include="ModuleItem.cs" />
     <Compile Include="ModuleList.cs" />
@@ -77,6 +78,7 @@
     <Compile Include="ServiceAttribute.cs" />
     <Compile Include="ServiceRepository.cs" />
     <Compile Include="TabControlRegionAdapter.cs" />
+    <Compile Include="ToolBarBuilder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\Symbion.pfx" />

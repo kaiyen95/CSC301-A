@@ -11,14 +11,11 @@
             "id": "aec44c45d23cd077",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "SymBank/Project Structure.canvas",
-                "viewState": {
-                  "x": -35,
-                  "y": -120,
-                  "zoom": -0.43455694999826805
-                }
+                "file": "SymBank/Application Architecture.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -88,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SymBank/Project Structure.canvas",
+                "file": "SymBank/Application Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SymBank/Project Structure.canvas",
+                "file": "SymBank/Application Architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SymBank/Project Structure.canvas"
+                "file": "SymBank/Application Architecture.md"
               }
             }
           }
@@ -151,8 +148,10 @@
   },
   "active": "aec44c45d23cd077",
   "lastOpenFiles": [
-    "SymBank/WPF Library.md",
+    "SymBank/Standard Delegates.md",
+    "SymBank/Application Architecture.md",
     "SymBank/Project Structure.canvas",
+    "SymBank/WPF Library.md",
     "Untitled",
     "SymBank/UI Messaging.md",
     "SymBank"

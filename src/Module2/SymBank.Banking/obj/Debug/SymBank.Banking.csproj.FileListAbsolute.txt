@@ -22,3 +22,10 @@ C:\CSC301-A\src\Module2\SymBank.Banking\obj\Debug\SymBank.Banking.csproj.CoreCom
 C:\CSC301-A\src\Module2\SymBank.Banking\obj\Debug\SymBank.Banking.csproj.CopyComplete
 C:\CSC301-A\src\Module2\SymBank.Banking\obj\Debug\SymBank.Banking.dll
 C:\CSC301-A\src\Module2\SymBank.Banking\obj\Debug\SymBank.Banking.pdb
+C:\CSC301-A\src\Module2\SymBank.Banking\obj\Debug\Views\AddAccountView.g.cs
+C:\CSC301-A\src\Module2\SymBank.Banking\obj\Debug\SymBank.Banking_MarkupCompile.cache
+C:\CSC301-A\src\Module2\SymBank.Banking\obj\Debug\SymBank.Banking_MarkupCompile.lref
+C:\CSC301-A\src\Module2\SymBank.Banking\obj\Debug\Views\SearchAccountsView.g.cs
+C:\CSC301-A\src\Module2\SymBank.Banking\obj\Debug\Views\AddAccountView.baml
+C:\CSC301-A\src\Module2\SymBank.Banking\obj\Debug\Views\SearchAccountsView.baml
+C:\CSC301-A\src\Module2\SymBank.Banking\obj\Debug\SymBank.Banking.g.resources

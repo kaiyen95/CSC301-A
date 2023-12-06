@@ -21,10 +21,20 @@ namespace SymBank {
 	/// </summary>
 	public partial class Shell : Window, IShell {
 		private Dictionary<string, IRegionAdapter> _regions;
+		private Dictionary<string, MenuBarBuilder> _menuBars;
+		private Dictionary<string, ToolBarBuilder> _toolBars;
 
 		public Dictionary<string, IRegionAdapter> Regions {
 			//	get { return _regions; }
 			get => _regions;
+		}
+
+		public Dictionary<string, MenuBarBuilder> MenuBars {
+			get => _menuBars;
+		}
+
+		public Dictionary<string, ToolBarBuilder> ToolBars {
+			get => _toolBars;
 		}
 
 		public Shell() {
@@ -32,6 +42,10 @@ namespace SymBank {
 			_regions = new Dictionary<string, IRegionAdapter>();
 			_regions.Add(ShellRegions.SideRegion, new ListBoxRegionAdapter(sideRegion));
 			_regions.Add(ShellRegions.MainRegion, new TabControlRegionAdapter(mainRegion));
+			_menuBars = new Dictionary<string, MenuBarBuilder>();
+			_toolBars = new Dictionary<string, ToolBarBuilder>();
+			_menuBars.Add("main", new MenuBarBuilder(mbrMain));
+			_toolBars.Add("main", new ToolBarBuilder(tbrMain));
 			this.Add<IShell>();
 		}
 
@@ -55,10 +69,10 @@ namespace SymBank {
 			ModuleLoader.Init();
 		}
 
-		private void mnuWebBrowser_Click(object sender, RoutedEventArgs e) {
-			var view = new WebBrowserView();
-			view.Open("https://google.com");
-			view.Show();
-		}
+		//private void mnuWebBrowser_Click(object sender, RoutedEventArgs e) {
+		//	var view = new WebBrowserView();
+		//	view.Open("https://google.com");
+		//	view.Show();
+		//}
 	}
 }
