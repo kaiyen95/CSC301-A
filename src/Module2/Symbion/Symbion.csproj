@@ -57,6 +57,7 @@
     <Compile Include="ILogger.cs" />
     <Compile Include="IModule.cs" />
     <Compile Include="IService.cs" />
+    <Compile Include="IShell.cs" />
     <Compile Include="LoggerFactory.cs" />
     <Compile Include="LogType.cs" />
     <Compile Include="ModuleClassAttribute.cs" />

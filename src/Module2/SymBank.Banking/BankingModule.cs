@@ -11,7 +11,6 @@ namespace SymBank.Banking {
 			//var obj = new BankingController();
 			//obj.Add<IAccountController>();
 			//obj.Add<ITransactionController>();
-
 		}
 	}
 }
