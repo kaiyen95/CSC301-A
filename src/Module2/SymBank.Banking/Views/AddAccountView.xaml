@@ -5,39 +5,43 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:SymBank.Banking.Views"
 		     xmlns:fx="clr-namespace:Symbion;assembly=Symbion"
+			 xmlns:m="clr-namespace:SymBank.Banking.Models"
+			 xmlns:vm="clr-namespace:SymBank.Banking.ViewModels"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800"
 			 Loaded="BaseView_Loaded">
+	<fx:BaseView.DataContext>
+		<vm:AddAccountViewModel />
+	</fx:BaseView.DataContext>
     <Grid>
 		<ScrollViewer VerticalScrollBarVisibility="Auto"
-HorizontalScrollBarVisibility="Auto">
+			HorizontalScrollBarVisibility="Auto">
 			<Border CornerRadius="8"
-BorderThickness="2"
-BorderBrush="SteelBlue">
+				BorderThickness="2"
+				BorderBrush="SteelBlue"
+				Background="{Binding AccountTypeBrush}">
 				<StackPanel Margin="8">
-					<Label x:Name="txtCode">Code</Label>
-					<TextBox Text="" />
+					<Label>Code</Label>
+					<TextBox x:Name="txtCode" Text="{Binding Account.Code}"  />
 					<Label>Customer Name</Label>
-					<TextBox Text="" />
+					<TextBox Text="{Binding Account.Name}" />
 					<Label>Account Type</Label>
-					<ComboBox SelectedIndex="0">
+					<ComboBox SelectedIndex="{Binding AccountType}">
 						<ComboBoxItem>Savings</ComboBoxItem>
 						<ComboBoxItem>Fixed Deposit</ComboBoxItem>
 						<ComboBoxItem>Checking</ComboBoxItem>
 					</ComboBox>
 					<Label>Zip Code</Label>
-					<TextBox Text="" />
+					<TextBox Text="{Binding Account.ZipCode}" />
 					<Label>Opening Balance</Label>
-					<TextBox Text="" />
+					<TextBox Text="{Binding Account.Balance}" />
 					<StackPanel Margin="8"
-HorizontalAlignment="Center"
-Orientation="Horizontal">
-						<Button x:Name="btnAdd"
-							Content="OK"
-							Click="btnAdd_Click" />
-						<Button x:Name="btnCancel"
-							Content="Cancel"
-							Click="btnCancel_Click" />
+						HorizontalAlignment="Center"
+						Orientation="Horizontal">
+						<Button x:Name="btnAdd" Content="OK"
+								Command="{Binding AddCommand}" />
+						<Button x:Name="btnCancel" Content="Cancel"
+								Command="{Binding CloseViewCommand}" />
 					</StackPanel>
 				</StackPanel>
 			</Border>

@@ -35,5 +35,28 @@ namespace Symbion {
 			//	region.Add(this);
 			Shell.Regions[Region].Add(this);
 		}
+
+		private BaseViewModel _vm;
+
+		public BaseViewModel ViewModel {
+			get { return _vm; }
+		}
+
+		public BaseView() {
+			Loaded += BaseView_Loaded;
+			//Loaded += (s, e) => {
+			//	if (_vm == null) {
+			//		_vm = (BaseViewModel)DataContext;
+			//		if (_vm != null) _vm.View = this;
+			//	}
+			//};
+		}
+
+		private void BaseView_Loaded(object sender, System.Windows.RoutedEventArgs e) {
+			if (_vm == null) {
+				_vm = (BaseViewModel)DataContext;
+				if (_vm != null) _vm.View = this;
+			}
+		}
 	}
 }

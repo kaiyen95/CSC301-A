@@ -24,3 +24,4 @@ C:\CSC301-A\src\Module2\SymBank\obj\Debug\SymBank.exe
 C:\CSC301-A\src\Module2\SymBank\obj\Debug\SymBank.pdb
 C:\CSC301-A\src\Module2\SymBank\bin\Debug\Modules.xml
 C:\CSC301-A\src\Module2\SymBank\obj\Debug\SymBank_Content.g.cs
+C:\CSC301-A\src\Module2\SymBank\bin\Debug\SymBank.Banking.dll.config

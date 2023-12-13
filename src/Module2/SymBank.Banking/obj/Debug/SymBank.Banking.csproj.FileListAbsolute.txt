@@ -29,3 +29,5 @@ C:\CSC301-A\src\Module2\SymBank.Banking\obj\Debug\Views\SearchAccountsView.g.cs
 C:\CSC301-A\src\Module2\SymBank.Banking\obj\Debug\Views\AddAccountView.baml
 C:\CSC301-A\src\Module2\SymBank.Banking\obj\Debug\Views\SearchAccountsView.baml
 C:\CSC301-A\src\Module2\SymBank.Banking\obj\Debug\SymBank.Banking.g.resources
+C:\CSC301-A\src\Module2\SymBank.Banking\bin\Debug\SymBank.Banking.dll.config
+C:\CSC301-A\src\Module2\SymBank.Banking\obj\Debug\GeneratedInternalTypeHelper.g.cs

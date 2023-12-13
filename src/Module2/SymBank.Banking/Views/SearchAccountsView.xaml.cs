@@ -1,4 +1,6 @@
-﻿using SymBank.Shared;
+﻿using SymBank.Banking.Models;
+using SymBank.Banking.Services;
+using SymBank.Shared;
 using Symbion;
 using System;
 using System.Collections.Generic;
@@ -20,18 +22,34 @@ namespace SymBank.Banking.Views {
 	/// Interaction logic for SearchAccountsView.xaml
 	/// </summary>
 	public partial class SearchAccountsView : BaseView {
+
+		private IAccountController _accountController;
+
 		public SearchAccountsView() {
+			_accountController = ServiceRepository.Get<IAccountController>();
 			InitializeComponent();
-			Region = ShellRegions.MainRegion;
+			Region = ShellRegions.SideRegion;
 			Header = "Account Search";
 		}
 
 		private void BaseView_Loaded(object sender, RoutedEventArgs e) {
-
+			txtSearch.Focus();
 		}
 
-		private void btnSearch_Click(object sender, RoutedEventArgs e) {
-
+		private async void btnSearch_Click(object sender, RoutedEventArgs e) {
+			try {
+				btnSearch.IsEnabled = false;
+				var name = txtSearch.Text;
+				var result = await _accountController.GetAccountsForNameAsync(name);
+				lsbAccounts.ItemsSource = result;
+			}
+			catch (Exception ex) {
+				Shell.Failure("Search account failed. " + ex.Message);
+			}
+			finally {
+				btnSearch.IsEnabled = true;
+				txtSearch.Focus();
+			}
 		}
 
 		private void btnCancel_Click(object sender, RoutedEventArgs e) {

@@ -22,7 +22,6 @@ namespace Symbion {
 		string name, int minValue, int maxValue) {
 			if (value < minValue || value > maxValue) throw new Exception(
 				string.Format(OutOfRange, name, minValue, maxValue));
-			}
 		}
 		public static void InRange(this double value, string name, double minValue, double maxValue) {
 			if (value < minValue || value > maxValue)

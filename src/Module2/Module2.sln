@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SymBank", "SymBank\SymBank.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SymBank.Shared", "SymBank.Shared\SymBank.Shared.csproj", "{1065C179-D692-418D-91C9-3EE437605EE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SymBank.Services", "SymBank.Services\SymBank.Services.csproj", "{3086053F-ABB6-4E9F-8CA4-E2F866210FA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFClient1", "WCFClient1\WCFClient1.csproj", "{98BD318B-342F-4720-A4ED-849E930E7062}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{1065C179-D692-418D-91C9-3EE437605EE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1065C179-D692-418D-91C9-3EE437605EE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1065C179-D692-418D-91C9-3EE437605EE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3086053F-ABB6-4E9F-8CA4-E2F866210FA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3086053F-ABB6-4E9F-8CA4-E2F866210FA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3086053F-ABB6-4E9F-8CA4-E2F866210FA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3086053F-ABB6-4E9F-8CA4-E2F866210FA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98BD318B-342F-4720-A4ED-849E930E7062}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98BD318B-342F-4720-A4ED-849E930E7062}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98BD318B-342F-4720-A4ED-849E930E7062}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98BD318B-342F-4720-A4ED-849E930E7062}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

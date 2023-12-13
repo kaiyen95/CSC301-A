@@ -48,7 +48,6 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Commands\DelegateCommand.cs" />
     <Compile Include="Commands\MyCommands.cs" />
     <Compile Include="Commands\OpenBrowserCommand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">

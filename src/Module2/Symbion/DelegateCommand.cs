@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Input;
 
-namespace SymBank.Shared.Commands {
+namespace Symbion {
 	public class DelegateCommand : ICommand {
 		public event EventHandler CanExecuteChanged;
 

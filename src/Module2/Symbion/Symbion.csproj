@@ -52,12 +52,16 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AsyncDelegateCommand.cs" />
     <Compile Include="BaseLogger.cs" />
     <Compile Include="BaseModule.cs" />
     <Compile Include="BaseService.cs" />
     <Compile Include="BaseView.cs" />
+    <Compile Include="BaseViewModel.cs" />
     <Compile Include="DebugHelper.cs" />
     <Compile Include="DebugLogger.cs" />
+    <Compile Include="DelegateCommand.cs" />
+    <Compile Include="Guard.cs" />
     <Compile Include="IAuthorization.cs" />
     <Compile Include="ILogger.cs" />
     <Compile Include="IModule.cs" />
