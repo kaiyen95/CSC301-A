@@ -1,0 +1,60 @@
+﻿Installing assembly 'C:\CSC301-A\src\Module2\WCFHost2\bin\Debug\WCFHost2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\CSC301-A\src\Module2\WCFHost2\bin\Debug\WCFHost2.InstallLog
+   assemblypath = C:\CSC301-A\src\Module2\WCFHost2\bin\Debug\WCFHost2.exe
+Installing service MyService...
+Creating EventLog source MyService in log Application...
+Rolling back assembly 'C:\CSC301-A\src\Module2\WCFHost2\bin\Debug\WCFHost2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\CSC301-A\src\Module2\WCFHost2\bin\Debug\WCFHost2.InstallLog
+   assemblypath = C:\CSC301-A\src\Module2\WCFHost2\bin\Debug\WCFHost2.exe
+Restoring event log to previous state for source MyService.
+Installing assembly 'C:\CSC301-A\src\Module2\WCFHost2\bin\Debug\WCFHost2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\CSC301-A\src\Module2\WCFHost2\bin\Debug\WCFHost2.InstallLog
+   assemblypath = C:\CSC301-A\src\Module2\WCFHost2\bin\Debug\WCFHost2.exe
+Installing service MyService...
+Service MyService has been successfully installed.
+Creating EventLog source MyService in log Application...
+Committing assembly 'C:\CSC301-A\src\Module2\WCFHost2\bin\Debug\WCFHost2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\CSC301-A\src\Module2\WCFHost2\bin\Debug\WCFHost2.InstallLog
+   assemblypath = C:\CSC301-A\src\Module2\WCFHost2\bin\Debug\WCFHost2.exe
+Installing assembly 'C:\CSC301-A\src\Module2\WCFHost2\bin\Debug\WCFHost2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\CSC301-A\src\Module2\WCFHost2\bin\Debug\WCFHost2.InstallLog
+   assemblypath = C:\CSC301-A\src\Module2\WCFHost2\bin\Debug\WCFHost2.exe
+Installing service MyService...
+Creating EventLog source MyService in log Application...
+Rolling back assembly 'C:\CSC301-A\src\Module2\WCFHost2\bin\Debug\WCFHost2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\CSC301-A\src\Module2\WCFHost2\bin\Debug\WCFHost2.InstallLog
+   assemblypath = C:\CSC301-A\src\Module2\WCFHost2\bin\Debug\WCFHost2.exe
+Restoring event log to previous state for source MyService.
+Uninstalling assembly 'C:\CSC301-A\src\Module2\WCFHost2\bin\Debug\WCFHost2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\CSC301-A\src\Module2\WCFHost2\bin\Debug\WCFHost2.InstallLog
+   assemblypath = C:\CSC301-A\src\Module2\WCFHost2\bin\Debug\WCFHost2.exe
+Removing EventLog source MyService.
+Service MyService is being removed from the system...
+Service MyService was successfully removed from the system.
+Installing assembly 'C:\CSC301-A\src\Module2\WCFHost2\bin\Debug\WCFHost2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\CSC301-A\src\Module2\WCFHost2\bin\Debug\WCFHost2.InstallLog
+   assemblypath = C:\CSC301-A\src\Module2\WCFHost2\bin\Debug\WCFHost2.exe
+Installing service MyService...
+Service MyService has been successfully installed.
+Creating EventLog source MyService in log Application...
+Committing assembly 'C:\CSC301-A\src\Module2\WCFHost2\bin\Debug\WCFHost2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\CSC301-A\src\Module2\WCFHost2\bin\Debug\WCFHost2.InstallLog
+   assemblypath = C:\CSC301-A\src\Module2\WCFHost2\bin\Debug\WCFHost2.exe

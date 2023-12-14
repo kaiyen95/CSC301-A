@@ -2,16 +2,16 @@
 <ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="SymBank">
   <DataContextMoniker Name="/SymBankDataContext" />
   <nestedChildShapes>
-    <classShape Id="92ad4e5e-e46c-4fd6-a0a4-3cf327089c70" absoluteBounds="0.75, 1, 2, 2.3478011067708335">
+    <classShape Id="37a4cb3d-78b8-4aa6-bb43-527a94644a64" absoluteBounds="0.75, 1, 2, 2.3478011067708335">
       <DataClassMoniker Name="/SymBankDataContext/Account" />
       <nestedChildShapes>
-        <elementListCompartment Id="99119d1c-3c15-4227-8591-d48e3e48e424" absoluteBounds="0.765, 1.46, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="4d5025b1-57ae-4122-b8ce-d85ca9633ed4" absoluteBounds="0.765, 1.46, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="01b089ed-0d05-48ae-9d80-c47e992b6a09" absoluteBounds="3.5, 1, 2, 2.1554996744791666">
+    <classShape Id="3554dbf0-af00-489c-a0ac-dcaeeb54628e" absoluteBounds="3.5, 1, 2, 2.1554996744791666">
       <DataClassMoniker Name="/SymBankDataContext/Transaction" />
       <nestedChildShapes>
-        <elementListCompartment Id="e8e1efa1-d243-4ee3-98b6-141e6bd2f7e6" absoluteBounds="3.515, 1.46, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="dcd7363d-08c5-4b73-8e03-cf717eaad1a3" absoluteBounds="3.515, 1.46, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
   </nestedChildShapes>

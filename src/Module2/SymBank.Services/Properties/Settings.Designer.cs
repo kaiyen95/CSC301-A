@@ -33,5 +33,16 @@ namespace SymBank.Services.Properties {
                 return ((string)(this["SymBankConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAPTOP-EHUDG5RO;Initial Catalog=SymBank;Integrated Security=True;Conn" +
+            "ect Timeout=30;Encrypt=False;TrustServerCertificate=False")]
+        public string SymBankConnectionString1 {
+            get {
+                return ((string)(this["SymBankConnectionString1"]));
+            }
+        }
     }
 }

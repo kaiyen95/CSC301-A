@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"66e8f936c0201c1d","type":"text","text":"WCF Client","x":-900,"y":-732,"width":250,"height":60},
+		{"id":"5e3476f294fd1bcb","type":"text","text":"Service Proxy","x":-600,"y":-672,"width":250,"height":50},
+		{"id":"5261a8520ec19755","type":"text","text":"Network Communication","x":-187,"y":-732,"width":250,"height":60},
+		{"id":"0b6602a31631d2d2","type":"text","text":"Service Configuration","x":440,"y":-732,"width":250,"height":60},
+		{"id":"bd52c7ea09d16aa2","type":"text","text":"Service Library (.dll)","x":240,"y":-622,"width":250,"height":82},
+		{"id":"3f5e5e543e1f28e6","type":"text","text":"Service Host (Stub)","x":240,"y":-840,"width":250,"height":60},
+		{"id":"f91f75a39c9f2d26","type":"text","text":"System.Runtime.Serialization\nSystem.ServiceModel","x":-280,"y":-415,"width":365,"height":60},
+		{"id":"135fe7d1d878b1a3","type":"text","text":"WCF Host (.exe)","x":85,"y":-1020,"width":250,"height":55}
+	],
+	"edges":[
+		{"id":"79f611d6fc9170f2","fromNode":"66e8f936c0201c1d","fromSide":"bottom","toNode":"5e3476f294fd1bcb","toSide":"top"},
+		{"id":"d60f1d7b0684dcab","fromNode":"135fe7d1d878b1a3","fromSide":"bottom","toNode":"3f5e5e543e1f28e6","toSide":"bottom"},
+		{"id":"0e407a132383b7b3","fromNode":"3f5e5e543e1f28e6","fromSide":"bottom","toNode":"bd52c7ea09d16aa2","toSide":"top"},
+		{"id":"80dc743dd76a205e","fromNode":"3f5e5e543e1f28e6","fromSide":"bottom","toNode":"0b6602a31631d2d2","toSide":"top"},
+		{"id":"f797113f28a9d66c","fromNode":"5e3476f294fd1bcb","fromSide":"right","toNode":"5261a8520ec19755","toSide":"left"},
+		{"id":"1fb26dc2d6e73a69","fromNode":"5261a8520ec19755","fromSide":"right","toNode":"3f5e5e543e1f28e6","toSide":"left"},
+		{"id":"178aacbf89e3d14a","fromNode":"66e8f936c0201c1d","fromSide":"bottom","toNode":"f91f75a39c9f2d26","toSide":"bottom"},
+		{"id":"3e9c812e6063955f","fromNode":"bd52c7ea09d16aa2","fromSide":"bottom","toNode":"f91f75a39c9f2d26","toSide":"top"},
+		{"id":"78a8654a6fa8613d","fromNode":"135fe7d1d878b1a3","fromSide":"bottom","toNode":"f91f75a39c9f2d26","toSide":"top"}
+	]
+}

@@ -4,18 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5c025da3917e3fa6",
+        "id": "c346e9dab6bfc24f",
         "type": "tabs",
         "children": [
           {
-            "id": "aec44c45d23cd077",
+            "id": "5c31864d6c41af40",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "SymBank/Application Architecture.md",
-                "mode": "source",
-                "source": false
+                "file": "Module 2/CanExecuteChanged.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": -588.927059173584,
+                  "zoom": 0
+                }
               }
             }
           }
@@ -69,7 +72,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "2be608cf37f2f9d0",
@@ -85,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SymBank/Application Architecture.md",
+                "file": "Module 2/CanExecuteChanged.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SymBank/Application Architecture.md",
+                "file": "Module 2/CanExecuteChanged.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SymBank/Application Architecture.md"
+                "file": "Module 2/CanExecuteChanged.canvas"
               }
             }
           }
@@ -146,14 +149,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aec44c45d23cd077",
+  "active": "5c31864d6c41af40",
   "lastOpenFiles": [
-    "SymBank/Standard Delegates.md",
-    "SymBank/Application Architecture.md",
-    "SymBank/Project Structure.canvas",
-    "SymBank/WPF Library.md",
-    "Untitled",
-    "SymBank/UI Messaging.md",
+    "Module 4/WCF Structuire.canvas",
+    "Module 2/CanExecuteChanged.canvas",
+    "Module 2/Untitled.md",
+    "Module 4/Binding.md",
+    "Module 2/WPF Library.md",
+    "Module 4",
+    "Module 2/UI Messaging.md",
+    "Module 2/Application Architecture.md",
+    "Module 2/Standard Delegates.md",
+    "Module 2/Project Structure.canvas",
+    "Module 2",
     "SymBank"
   ]
 }

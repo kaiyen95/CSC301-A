@@ -39,7 +39,7 @@ namespace SymBank.Services
     #endregion
 		
 		public SymBankDataContext() : 
-				base(global::SymBank.Services.Properties.Settings.Default.SymBankConnectionString, mappingSource)
+				base(global::SymBank.Services.Properties.Settings.Default.SymBankConnectionString1, mappingSource)
 		{
 			OnCreated();
 		}

@@ -1,0 +1,7 @@
+C:\CSC301-A\src\Module2\WCFClient2\bin\Debug\WCFClient2.exe.config
+C:\CSC301-A\src\Module2\WCFClient2\bin\Debug\WCFClient2.exe
+C:\CSC301-A\src\Module2\WCFClient2\bin\Debug\WCFClient2.pdb
+C:\CSC301-A\src\Module2\WCFClient2\obj\Debug\WCFClient2.csproj.CoreCompileInputs.cache
+C:\CSC301-A\src\Module2\WCFClient2\obj\Debug\WCFClient2.exe
+C:\CSC301-A\src\Module2\WCFClient2\obj\Debug\WCFClient2.pdb
+C:\CSC301-A\src\Module2\WCFClient2\obj\Debug\WCFClient2.csproj.AssemblyReference.cache

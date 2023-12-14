@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"8a109b8c0828a6dd","x":-200,"y":-440,"width":240,"height":60,"type":"text","text":"CanExecute?"},
+		{"id":"c45df2f30ca3ea74","x":-360,"y":-620,"width":250,"height":60,"type":"text","text":"Button"},
+		{"id":"5ae7b9aa1df1ef83","x":0,"y":-620,"width":360,"height":120,"type":"text","text":"Command\nCannot execute before noon\nCan Execute after noon"},
+		{"id":"a02832b3f7f802bf","x":0,"y":-720,"width":250,"height":60,"type":"text","text":"Trigger CanExecuteChanged"}
+	],
+	"edges":[
+		{"id":"c0dfa55449483482","fromNode":"5ae7b9aa1df1ef83","fromSide":"left","toNode":"c45df2f30ca3ea74","toSide":"right"},
+		{"id":"ec694e56f9a8b08a","fromNode":"c45df2f30ca3ea74","fromSide":"bottom","toNode":"8a109b8c0828a6dd","toSide":"top","label":"return true/false"},
+		{"id":"86fd8d7f97e561e8","fromNode":"8a109b8c0828a6dd","fromSide":"top","toNode":"5ae7b9aa1df1ef83","toSide":"bottom"},
+		{"id":"a55673bd20c7b977","fromNode":"5ae7b9aa1df1ef83","fromSide":"top","toNode":"a02832b3f7f802bf","toSide":"top"},
+		{"id":"cd8061cf93a8b216","fromNode":"a02832b3f7f802bf","fromSide":"left","toNode":"c45df2f30ca3ea74","toSide":"top","label":"Inform Button to check again\nwhether the Command can\nnow execute."}
+	]
+}

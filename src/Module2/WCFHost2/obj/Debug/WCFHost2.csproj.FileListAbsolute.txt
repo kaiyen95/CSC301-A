@@ -1,0 +1,13 @@
+C:\CSC301-A\src\Module2\WCFHost2\bin\Debug\WCFHost2.exe.config
+C:\CSC301-A\src\Module2\WCFHost2\bin\Debug\WCFHost2.exe
+C:\CSC301-A\src\Module2\WCFHost2\bin\Debug\WCFHost2.pdb
+C:\CSC301-A\src\Module2\WCFHost2\bin\Debug\SymBank.Services.dll
+C:\CSC301-A\src\Module2\WCFHost2\bin\Debug\SymBank.Services.pdb
+C:\CSC301-A\src\Module2\WCFHost2\bin\Debug\SymBank.Services.dll.config
+C:\CSC301-A\src\Module2\WCFHost2\obj\Debug\WCFHost2.csproj.AssemblyReference.cache
+C:\CSC301-A\src\Module2\WCFHost2\obj\Debug\WCFHost2.ProjectInstaller.resources
+C:\CSC301-A\src\Module2\WCFHost2\obj\Debug\WCFHost2.csproj.GenerateResource.cache
+C:\CSC301-A\src\Module2\WCFHost2\obj\Debug\WCFHost2.csproj.CoreCompileInputs.cache
+C:\CSC301-A\src\Module2\WCFHost2\obj\Debug\WCFHost2.csproj.CopyComplete
+C:\CSC301-A\src\Module2\WCFHost2\obj\Debug\WCFHost2.exe
+C:\CSC301-A\src\Module2\WCFHost2\obj\Debug\WCFHost2.pdb

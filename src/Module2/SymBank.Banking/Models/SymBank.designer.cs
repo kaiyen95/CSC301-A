@@ -39,7 +39,7 @@ namespace SymBank.Banking.Models
     #endregion
 		
 		public SymBankDataContext() : 
-				base(global::SymBank.Banking.Properties.Settings.Default.SymBankConnectionString, mappingSource)
+				base(global::SymBank.Banking.Properties.Settings.Default.SymBankConnectionString1, mappingSource)
 		{
 			OnCreated();
 		}
@@ -138,6 +138,10 @@ namespace SymBank.Banking.Models
 		
 		private decimal _Balance;
 		
+		private EntitySet<Transaction> _Transactions;
+		
+		private EntitySet<Transaction> _Transactions1;
+		
     #region Extensibility Method Definitions
     partial void OnLoaded();
     partial void OnValidate(System.Data.Linq.ChangeAction action);
@@ -162,6 +166,8 @@ namespace SymBank.Banking.Models
 		
 		public Account()
 		{
+			this._Transactions = new EntitySet<Transaction>(new Action<Transaction>(this.attach_Transactions), new Action<Transaction>(this.detach_Transactions));
+			this._Transactions1 = new EntitySet<Transaction>(new Action<Transaction>(this.attach_Transactions1), new Action<Transaction>(this.detach_Transactions1));
 			OnCreated();
 		}
 		
@@ -325,6 +331,32 @@ namespace SymBank.Banking.Models
 			}
 		}
 		
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="Account_Transaction", Storage="_Transactions", ThisKey="Code", OtherKey="Source")]
+		public EntitySet<Transaction> Transactions
+		{
+			get
+			{
+				return this._Transactions;
+			}
+			set
+			{
+				this._Transactions.Assign(value);
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="Account_Transaction1", Storage="_Transactions1", ThisKey="Code", OtherKey="Target")]
+		public EntitySet<Transaction> Transactions1
+		{
+			get
+			{
+				return this._Transactions1;
+			}
+			set
+			{
+				this._Transactions1.Assign(value);
+			}
+		}
+		
 		public event PropertyChangingEventHandler PropertyChanging;
 		
 		public event PropertyChangedEventHandler PropertyChanged;
@@ -343,6 +375,30 @@ namespace SymBank.Banking.Models
 			{
 				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 			}
+		}
+		
+		private void attach_Transactions(Transaction entity)
+		{
+			this.SendPropertyChanging();
+			entity.Account = this;
+		}
+		
+		private void detach_Transactions(Transaction entity)
+		{
+			this.SendPropertyChanging();
+			entity.Account = null;
+		}
+		
+		private void attach_Transactions1(Transaction entity)
+		{
+			this.SendPropertyChanging();
+			entity.Account1 = this;
+		}
+		
+		private void detach_Transactions1(Transaction entity)
+		{
+			this.SendPropertyChanging();
+			entity.Account1 = null;
 		}
 	}
 	
@@ -366,6 +422,10 @@ namespace SymBank.Banking.Models
 		
 		private System.DateTime _Created;
 		
+		private EntityRef<Account> _Account;
+		
+		private EntityRef<Account> _Account1;
+		
     #region Extensibility Method Definitions
     partial void OnLoaded();
     partial void OnValidate(System.Data.Linq.ChangeAction action);
@@ -388,6 +448,8 @@ namespace SymBank.Banking.Models
 		
 		public Transaction()
 		{
+			this._Account = default(EntityRef<Account>);
+			this._Account1 = default(EntityRef<Account>);
 			OnCreated();
 		}
 		
@@ -442,6 +504,10 @@ namespace SymBank.Banking.Models
 			{
 				if ((this._Source != value))
 				{
+					if (this._Account.HasLoadedOrAssignedValue)
+					{
+						throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+					}
 					this.OnSourceChanging(value);
 					this.SendPropertyChanging();
 					this._Source = value;
@@ -462,6 +528,10 @@ namespace SymBank.Banking.Models
 			{
 				if ((this._Target != value))
 				{
+					if (this._Account1.HasLoadedOrAssignedValue)
+					{
+						throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+					}
 					this.OnTargetChanging(value);
 					this.SendPropertyChanging();
 					this._Target = value;
@@ -527,6 +597,74 @@ namespace SymBank.Banking.Models
 					this._Created = value;
 					this.SendPropertyChanged("Created");
 					this.OnCreatedChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="Account_Transaction", Storage="_Account", ThisKey="Source", OtherKey="Code", IsForeignKey=true)]
+		public Account Account
+		{
+			get
+			{
+				return this._Account.Entity;
+			}
+			set
+			{
+				Account previousValue = this._Account.Entity;
+				if (((previousValue != value) 
+							|| (this._Account.HasLoadedOrAssignedValue == false)))
+				{
+					this.SendPropertyChanging();
+					if ((previousValue != null))
+					{
+						this._Account.Entity = null;
+						previousValue.Transactions.Remove(this);
+					}
+					this._Account.Entity = value;
+					if ((value != null))
+					{
+						value.Transactions.Add(this);
+						this._Source = value.Code;
+					}
+					else
+					{
+						this._Source = default(int);
+					}
+					this.SendPropertyChanged("Account");
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="Account_Transaction1", Storage="_Account1", ThisKey="Target", OtherKey="Code", IsForeignKey=true)]
+		public Account Account1
+		{
+			get
+			{
+				return this._Account1.Entity;
+			}
+			set
+			{
+				Account previousValue = this._Account1.Entity;
+				if (((previousValue != value) 
+							|| (this._Account1.HasLoadedOrAssignedValue == false)))
+				{
+					this.SendPropertyChanging();
+					if ((previousValue != null))
+					{
+						this._Account1.Entity = null;
+						previousValue.Transactions1.Remove(this);
+					}
+					this._Account1.Entity = value;
+					if ((value != null))
+					{
+						value.Transactions1.Add(this);
+						this._Target = value.Code;
+					}
+					else
+					{
+						this._Target = default(int);
+					}
+					this.SendPropertyChanged("Account1");
 				}
 			}
 		}

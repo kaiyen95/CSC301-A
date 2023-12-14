@@ -2,17 +2,31 @@
 <ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="SymBank">
   <DataContextMoniker Name="/SymBankDataContext" />
   <nestedChildShapes>
-    <classShape Id="00682425-09c1-451a-9ec6-524b6750858a" absoluteBounds="0.75, 1, 2, 2.3478011067708335">
+    <classShape Id="aea0e063-be2a-4cc2-96e5-98eaeeae50c8" absoluteBounds="0.75, 1, 2, 2.3478011067708335">
       <DataClassMoniker Name="/SymBankDataContext/Account" />
       <nestedChildShapes>
-        <elementListCompartment Id="288e81ba-5372-4383-8b4a-dc93268eae0a" absoluteBounds="0.765, 1.46, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="bb6b94fc-7ebd-4316-bb86-f71175e4c051" absoluteBounds="0.765, 1.46, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="1bc2c073-c575-4330-9a5e-38c5357fbb40" absoluteBounds="3.5, 1, 2, 2.1554996744791666">
+    <classShape Id="808209e6-65a4-474b-9502-5a4442cdc42e" absoluteBounds="3.5, 1, 2, 2.1554996744791666">
       <DataClassMoniker Name="/SymBankDataContext/Transaction" />
       <nestedChildShapes>
-        <elementListCompartment Id="23e8685f-4fd1-48f9-a2fc-571f98a66e1c" absoluteBounds="3.515, 1.46, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="e9185414-0e8c-4dbb-bc13-307083e77b19" absoluteBounds="3.515, 1.46, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
+    <associationConnector edgePoints="[(2.75 : 2.07774983723958); (3.5 : 2.07774983723958)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SymBankDataContext/Account/Account_Transaction" />
+      <nodes>
+        <classShapeMoniker Id="aea0e063-be2a-4cc2-96e5-98eaeeae50c8" />
+        <classShapeMoniker Id="808209e6-65a4-474b-9502-5a4442cdc42e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 1.47637491861979); (3.5 : 1.47637491861979)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SymBankDataContext/Account/Account_Transaction1" />
+      <nodes>
+        <classShapeMoniker Id="aea0e063-be2a-4cc2-96e5-98eaeeae50c8" />
+        <classShapeMoniker Id="808209e6-65a4-474b-9502-5a4442cdc42e" />
+      </nodes>
+    </associationConnector>
   </nestedChildShapes>
 </ordesignerObjectsDiagram>
